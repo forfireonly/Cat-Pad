@@ -9,3 +9,18 @@ The primary objective of the project is to detect the cat on the keyboard and di
 
 The solution is built using deep learning and computer vision algorithms powered by the Intel® Distribution of 
 OpenVINO™ toolkit Model Optimizer.
+
+## Workflow steps
+
+###Colab stage
+
+1. Installing OpenVino on Google Colab
+2. Use resnet50-binary-0001 with OpenVino for identification of the cat in image.
+3. Identification of cat in video.
+
+###Local run
+
+1. Installing OpenVino on Google Colab.
+2. Identification of cat in real time.
+3. Code to disable the keyboard as long as cat is present.
+4. Increasing the presision of detection by training the model.
